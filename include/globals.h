@@ -431,7 +431,7 @@ extern RemoteDebug Debug;           // Let everyone in the project know about it
     #define NUM_CHANNELS    1
     #define RING_SIZE_0     24
     #define BONUS_PIXELS    0
-    #define MATRIX_WIDTH    700
+    #define MATRIX_WIDTH    144
     #define MATRIX_HEIGHT   1
     #define NUM_FANS        MATRIX_WIDTH
     #define FAN_SIZE        MATRIX_HEIGHT
@@ -442,7 +442,7 @@ extern RemoteDebug Debug;           // Let everyone in the project know about it
     #define TOGGLE_BUTTON_1 37
     #define TOGGLE_BUTTON_2 39
 
-    #define LED_PIN0 32
+    #define LED_PIN0 26
 
     #define NUM_INFO_PAGES          2
     #define ONSCREEN_SPECTRUM_PAGE  1   // Show a little spectrum analyzer on one of the info pages (slower)
